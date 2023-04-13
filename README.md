@@ -5,10 +5,13 @@ Requirements:
 The following libraries must be installed to run the system:
 
 OpenCV (pip install opencv-python)
+
 Pandas (pip install pandas)
+
 DeepFace (pip install deepface)
 
 Usage:
+
 Insert an image in the project folder, change the name of the image with "img.jpg" or change the image name in the code.
 Run the Python script "facial_recognition.py".
 The script will output the age, gender, and emotion of the person in the uploaded image, and display the real-time face verification system.
@@ -16,6 +19,7 @@ When a person is in front of the webcam, the system will display "MATCH!" if the
 Press "q" to exit the real-time face verification system.
 
 Possible improvements:
+
 Add support for multiple uploaded images.
 Implement a database to store a list of known suspects and persons of interest.
 Integrate the system with a notification system to alert authorities when a match is found.
